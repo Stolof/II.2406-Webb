@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User information</title>
+
+<link rel="stylesheet" type="text/css" href="myFirstStyle.css">
+<script type="text/javascript" src="myFirstScript.js"></script>
+
+</head>
+<body>
+
+<h1 id="h1">Index Page of the MVC Application (Lab1)</h1>
+<form method="post" name="userForm" action="">
+
+<Fieldset>
+<legend>Personal Information:</legend>
+    <label>First name:
+    <input type="text" class="type1" name="firstName" /></label> <br>
+    <label>Last name: <input type="text" class="type1" name="lastName" /><br>
+    </label>
+	
+</Fieldset>
+
+<Fieldset>
+  <legend> Birth Day: </legend>
+  <label>Date: <input id="p2" type="text" class="type1" name="birthDay" /><br>
+  </label>
+</Fieldset>
+
+<Fieldset>
+  <Legend> Sex: </Legend>
+    <label> Male 
+	<input type="radio" id="maleButton" class="type2" name="sex" value="male" onclick="return toggleFM()" checked />
+  </label><br>
+   <label> Female 
+	<input type="radio" id="femaleButton" class="type2" name="sex" value="female" onclick="return toggleFM()"/></label>
+</Fieldset>
+
+<input class="type1" id="p2" type="submit" value="Submit" onclick="return validateMyForm()" />
+</form>
+
+</body>
+</html>

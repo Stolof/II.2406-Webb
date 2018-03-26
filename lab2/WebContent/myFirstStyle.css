@@ -1,0 +1,33 @@
+@charset "UTF-8";
+label{
+  display:block;
+  text-align: right;
+  
+}
+Fieldset{
+  width: 300px;
+  border-color: red;
+}
+
+legend{
+    color: red;
+    font-weight: bold;
+}
+.type1:focus{
+    background-color: white;
+}
+.type1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 40px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color:  #FFF3F3;
+}
+.type2 {
+  margin-left: 80px;
+  margin-right: 100px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 99, 71, 0.5);
+}
